@@ -8,7 +8,8 @@
 
 import Foundation
 
-class Item {
+//encodable is for core memory
+class Item: Codable {
     var title: String = ""
     var done: Bool = false
 }
